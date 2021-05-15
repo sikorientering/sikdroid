@@ -1,0 +1,44 @@
+@use 'node_modules/@limetech/lime-elements/dist/lime-elements/lime-elements.css';
+@use 'node_modules/@limetech/lime-elements/dist/lime-elements/style/color-palette-extended-light-mode-only.css';
+
+$sik-green: #00904a;
+$sik-white: #fff;
+$sik-teak: #ba9d71;
+$sik-black: #000;
+
+/*
+  Global App CSS
+  ----------------------
+  Use this file for styles that should be applied to all components.
+  For example, "font-family" within the "body" selector is a CSS property
+  most apps will want applied to all components.
+
+  Any global CSS variables should also be applied here.
+*/
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+:root {
+  --sik-green: #{$sik-green};
+  --sik-white: #{$sik-white};
+  --sik-teak: #{$sik-teak};
+  --sik-black: #{$sik-black};
+
+  --lime-on-primary-color: #{$sik-white};
+  --lime-primary-color: #{$sik-green};
+}
+
+.icons-attribution {
+  padding: 1rem;
+  margin-top: 10rem;
+  color: #ccc;
+  font-size: x-small;
+
+  a,a:visited,a:active,a:hover {
+    color: #ccc;
+  }
+}
