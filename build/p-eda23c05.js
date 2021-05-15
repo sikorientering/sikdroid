@@ -1,0 +1,1 @@
+import{i as n,b as t}from"./p-c93050d6.js";function o(o){if(!n(o))return!1;var r=t(o);return"[object Function]"==r||"[object GeneratorFunction]"==r||"[object AsyncFunction]"==r||"[object Proxy]"==r}function r(n,t){return n===t||n!=n&&t!=t}export{r as e,o as i}
